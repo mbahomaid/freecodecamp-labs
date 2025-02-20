@@ -38,4 +38,4 @@ You can refer to the example project provided by freeCodeCamp, but avoid directl
 
 [Live Demo](https://mbahomaid.github.io/freeCodeCamp-labs/1-html/1-basic-html/1-recipe-page/)
 
-Check the [repository](https://github.com/mbahomaid/freeCodeCamp-labs/1-html/1-basic-html/1-recipe-page) to see my solution code.
+Check the [repository](https://github.com/mbahomaid/freeCodeCamp-labs/tree/main/1-html/1-basic-html/1-recipe-page) to see my solution code.
