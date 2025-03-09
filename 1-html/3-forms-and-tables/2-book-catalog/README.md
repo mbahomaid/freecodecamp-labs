@@ -23,7 +23,6 @@ This lab is part of the freeCodeCamp Full Stack curriculum. The goal is to build
 
 - Try to add your own personal style while keeping the functionality intact.
 - Ensure all table elements are properly structured for better readability and accessibility.
-- Use proper HTML5 validation for form fields.
 
 ## Example Project
 
