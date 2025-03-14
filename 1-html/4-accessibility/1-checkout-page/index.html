@@ -16,5 +16,51 @@
       <p>Takamura Figure</p>
       <p>$50.00</p>
     </section>
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <label for="card-name">Name on Card</label>
+        <input
+          type="text"
+          placeholder="Name on Card"
+          id="card-name"
+          name="card-name"
+          aria-required="true"
+          required
+        />
+        <br />
+        <label for="card-number">Card Number</label>
+        <input
+          type="number"
+          placeholder="Card Number"
+          id="card-number"
+          name="card-number"
+          aria-required="true"
+          required
+        />
+        <br />
+        <label for="expiration-date">Expiration Date</label>
+        <input
+          type="date"
+          placeholder="Expiration Date"
+          id="expiration-date"
+          name="expiration-date"
+          aria-required="true"
+          required
+        />
+        <br />
+        <label for="cvv">CVV</label>
+        <input
+          type="number"
+          placeholder="CVV"
+          id="cvv"
+          name="cvv"
+          aria-required="true"
+          required
+        />
+        <br />
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
   </body>
 </html>
