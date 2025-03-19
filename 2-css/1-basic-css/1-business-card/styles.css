@@ -24,8 +24,29 @@ a:hover {
   margin-right: auto;
 }
 .profile-image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
+  border: 2px solid black;
+}
+.social-link {
+  margin: auto 7px;
+}
+.full-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.designation {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.company {
+  color: rgba(0, 0, 0, 0.5);
+}
+.business-card {
+  border-radius: 10px;
+  border: 1px solid black;
 }
