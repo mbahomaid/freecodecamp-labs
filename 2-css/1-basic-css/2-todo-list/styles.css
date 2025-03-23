@@ -1,0 +1,42 @@
+body {
+  background: antiquewhite;
+  font-size: 18px;
+  font-family: monospace;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.box {
+  width: 300px;
+  padding: 40px;
+  background: #fff;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+.todo-list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:focus {
+  outline: paleturquoise;
+}
+li {
+  margin: 10px 0;
+}
+.sub-item {
+  margin-left: 20px;
+  list-style-type: disc;
+}
