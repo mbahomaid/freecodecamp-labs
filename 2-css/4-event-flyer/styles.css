@@ -4,13 +4,13 @@ body {
   width: 80vw;
   min-height: calc(100vh - 100px);
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: pink;
   border-radius: 10px;
-  border: 4px pink solid;
+  border: white 3px solid;
 }
 section {
   width: 100%;
