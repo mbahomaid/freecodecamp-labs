@@ -1,0 +1,35 @@
+body {
+  padding: 50px 10px;
+  margin: 0px auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+  font-family: monospace;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 4px pink solid;
+}
+section {
+  width: 100%;
+}
+hr {
+  width: 100%;
+  color: #333;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.bold-text {
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+}
