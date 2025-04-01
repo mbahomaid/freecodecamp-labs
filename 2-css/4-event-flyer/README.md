@@ -43,4 +43,4 @@ You can refer to the example project provided by freeCodeCamp, but avoid directl
 
 [Live Demo](https://mbahomaid.github.io/freeCodeCamp-labs/2-css/4-event-flyer/)
 
-Check the [index.html](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/4-event-flyer/index.html) & [styles.css](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/4-event-flyer/index.html) to see my solution code.
+Check the [index.html](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/4-event-flyer/index.html) & [styles.css](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/4-event-flyer/styles.css) to see my solution code.
