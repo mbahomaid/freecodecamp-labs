@@ -43,6 +43,6 @@ You can refer to the example project provided by freeCodeCamp, but avoid directl
 
 ## My Solution
 
-[Live Demo](https://mbahomaid.github.io/freeCodeCamp-labs/2-css/1-basic-css/2-todo-list/index.html)
+[Live Demo](https://mbahomaid.github.io/freeCodeCamp-labs/2-css/2-todo-list/index.html)
 
-Check the [index.html](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/1-basic-css/2-todo-list/index.html) & [styles.css](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/1-basic-css/2-todo-list/styles.css) to see my solution code.
+Check the [index.html](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/2-todo-list/index.html) & [styles.css](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/2-css/2-todo-list/styles.css) to see my solution code.
