@@ -1,0 +1,79 @@
+body {
+  background-color: aquamarine;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px auto;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 5px 0 5px 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+}
+label {
+  display: block;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: large;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+input:focus,
+textarea:focus {
+  border: 2px solid blue;
+}
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid green;
+}
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.radio-group label {
+  display: inline;
+}
+.radio-group input[type="radio"]:checked {
+  border: 1px solid green;
+  background-color: green;
+  box-shadow: 1px 1px 1px inset green;
+  accent-color: green;
+}
+input:checked + label {
+  color: green;
+}
+input:nth-child(1) {
+  background-color: blueviolet;
+}
