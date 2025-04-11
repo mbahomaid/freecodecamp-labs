@@ -45,6 +45,6 @@ You can refer to the example project provided by freeCodeCamp, but avoid directl
 
 ## My Solution
 
-[Live Demo](https://mbahomaid.github.io/freeCodeCamp-labs/1-html/1-event-hub)
+[Live Demo](https://mbahomaid.github.io/freeCodeCamp-labs/1-html/4-event-hub)
 
-Check the [index.html](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/1-html/1-event-hub/index.html) to see my solution code.
+Check the [index.html](https://github.com/mbahomaid/freeCodeCamp-labs/blob/main/1-html/4-event-hub/index.html) to see my solution code.
