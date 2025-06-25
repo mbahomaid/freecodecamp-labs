@@ -1,11 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <br />
+        <label for="email" id="email-label">Email </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <br />
+
+        <label for="age" id="number-label">Age(optional) </label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          placeholder="Age"
+          min="13"
+          max="100"
+        />
+
+        <br />
+        <br />
+        <label for="role"
+          >Which option best describes your current role?
+        </label>
+        <br />
+        <select name="role" id="dropdown">
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+
+        <div>
+          <p>
+            <label for="recommend"
+              >What is your favorite feature of freeCodeCamp?
+            </label>
+          </p>
+
+          <input
+            type="radio"
+            name="recommend"
+            id="definitely"
+            value="definitely"
+          />
+          <label for="definitely">Definitely</label>
+
+          <input type="radio" name="recommend" id="maybe" value="maybe" />
+          <label for="maybe">Maybe</label>
+
+          <input type="radio" name="recommend" id="not-sure" value="not-sure" />
+          <label for="not-sure">Not Sure</label>
+        </div>
+
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select name="favorite-feature" id="favorite-feature">
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-source">Open Source</option>
+        </select>
+
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" name="frontend" id="frontend" value="frontend" />
+        <label for="frontend">Front-end Projects</label>
+
+        <input type="checkbox" name="backend" id="backend" value="backend" />
+        <label for="backend">Back-end Projects</label>
+
+        <input
+          type="checkbox"
+          name="data-visualization"
+          id="data-visualization"
+          value="data-visualization"
+        />
+        <label for="data-visualization">Data Visualization</label>
+
+        <input
+          type="checkbox"
+          name="challenges"
+          id="challenges"
+          value="challenges"
+        />
+        <label for="challenges">Challenges</label>
+
+        <input
+          type="checkbox"
+          name="open-source-community"
+          id="open-source-community"
+          value="open-source-community"
+        />
+        <label for="open-source-community">Open Source Community</label>
+
+        <input
+          type="checkbox"
+          name="gitter-help-rooms"
+          id="gitter-help-rooms"
+          value="gitter-help-rooms"
+        />
+        <label for="gitter-help-rooms">Gitter help rooms</label>
+
+        <input type="checkbox" name="videos" id="videos" value="videos" />
+        <label for="videos">Videos</label>
+
+        <input
+          type="checkbox"
+          name="city-meetups"
+          id="city-meetups"
+          value="city-meetups"
+        />
+        <label for="city-meetups">City Meetups</label>
+
+        <input type="checkbox" name="wiki" id="wiki" value="wiki" />
+        <label for="wiki">Wiki</label>
+
+        <input type="checkbox" name="forum" id="forum" value="forum" />
+        <label for="forum">Forum</label>
+
+        <input
+          type="checkbox"
+          name="additional-courses"
+          id="additional-courses"
+          value="additional-courses"
+        />
+        <label for="additional-courses">Additional Courses</label>
+
+        <p>Any comments or suggestions?</p>
+        <textarea
+          name="comments"
+          id="comments"
+          placeholder="Enter your comment here..."
+        ></textarea>
+        <br />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
 </html>
