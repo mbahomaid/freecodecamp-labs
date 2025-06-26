@@ -17,7 +17,56 @@
         <p class="item-title">Left-handed spoon</p>
         <p class="price">$29.99</p>
       </section>
-      <section></section>
+
+      <section class="payment-section">
+        <h2>Payment Information</h2>
+
+        <form>
+          <div>
+            <label for="card-name">Cardholder Name</label>
+            <input
+              type="text"
+              name="card-name"
+              id="card-name"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <div>
+            <label for="card-number">Card Number</label>
+            <input
+              type="number"
+              name="card-number"
+              id="card-number"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <div>
+            <label for="expiry-date">Expiry Date</label>
+            <input
+              type="date"
+              name="expiry-date"
+              id="expiry-date"
+              required
+              aria-required="true"
+            />
+          </div>
+          <div>
+            <label for="cvv">CVV</label>
+            <input
+              type="number"
+              name="cvv"
+              id="cvv"
+              required
+              aria-required="true"
+            />
+          </div>
+          <button type="submit">Place Order</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
