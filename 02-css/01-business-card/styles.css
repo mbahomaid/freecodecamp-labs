@@ -3,6 +3,20 @@ body {
   font-family: Arial, sans-serif;
 }
 p {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+}
+.business-card {
+  width: 300px;
+  background-color: #fff0f5;
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 16px;
+}
+.profile-image {
+  max-width: 100%;
 }
