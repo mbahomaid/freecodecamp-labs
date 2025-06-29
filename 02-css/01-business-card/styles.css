@@ -16,7 +16,11 @@ a {
   margin: 100px auto;
   text-align: center;
   font-size: 16px;
+  border: 3px solid #2f4f4f;
 }
 .profile-image {
   max-width: 100%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #d3d3d3;
 }
