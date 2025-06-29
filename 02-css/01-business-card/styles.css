@@ -2,3 +2,7 @@ body {
   background-color: rosybrown;
   font-family: Arial, sans-serif;
 }
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
