@@ -24,3 +24,27 @@ a {
   height: 150px;
   border: 3px solid #d3d3d3;
 }
+.full-name {
+  color: #2f4f4f;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.designation {
+  color: #80809e;
+  font-size: 20px;
+}
+.company {
+  color: #a9a9a9;
+}
+hr {
+  margin: 20px;
+}
+
+.social-media a,
+.social-media a:active,
+.social-media a:hover {
+  color: #900000;
+}
+.social-media a {
+  margin: 5px;
+}
