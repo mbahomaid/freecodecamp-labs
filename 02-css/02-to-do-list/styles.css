@@ -6,7 +6,7 @@ body {
   max-width: 400px;
   padding: 10px;
   background-color: #fff;
-  margin: 20px auto;
+  margin: 60px auto;
   border-radius: 10px;
 }
 h1 {
@@ -16,14 +16,25 @@ a {
   text-decoration: none;
   line-height: 2;
 }
-
 .todo-list > li {
   list-style-type: none;
   background-color: #e5f1e5;
-  padding: 30px;
+  padding: 20px;
   margin: 20px 20px 20px -10px;
   border-radius: 5px;
 }
 .sub-item {
   list-style-type: square;
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:focus {
+  outline: 1px blue;
 }
