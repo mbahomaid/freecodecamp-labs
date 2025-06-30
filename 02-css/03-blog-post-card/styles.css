@@ -37,3 +37,6 @@ body {
   margin: 10px;
   border-radius: 5px;
 }
+.read-more:hover {
+  background-color: #000;
+}
