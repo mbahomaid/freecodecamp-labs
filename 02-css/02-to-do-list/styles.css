@@ -1,12 +1,29 @@
 body {
   background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  max-width: 500px;
+  max-width: 400px;
+  padding: 10px;
   background-color: #fff;
   margin: 20px auto;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 h1 {
   text-align: center;
+}
+a {
+  text-decoration: none;
+  line-height: 2;
+}
+
+.todo-list > li {
+  list-style-type: none;
+  background-color: #e5f1e5;
+  padding: 30px;
+  margin: 20px 20px 20px -10px;
+  border-radius: 5px;
+}
+.sub-item {
+  list-style-type: square;
 }
