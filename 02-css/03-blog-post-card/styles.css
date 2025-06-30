@@ -7,6 +7,7 @@ body {
   border-radius: 10px;
   width: 400px;
   text-align: center;
+  margin: 50px auto;
 }
 .post-img {
   background-size: contain;
@@ -16,7 +17,7 @@ body {
   border-bottom: 5px solid #333333;
 }
 .post-content {
-  padding: 20px;
+  padding: 10px;
 }
 .post-title {
   color: #333333;
