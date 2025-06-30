@@ -8,6 +8,7 @@ body {
   width: 400px;
   text-align: center;
   margin: 50px auto;
+  box-shadow: 1px 1px 4px #666677;
 }
 .post-img {
   background-size: contain;
