@@ -8,6 +8,7 @@ body {
   background-color: #fff;
   margin: 60px auto;
   border-radius: 10px;
+  box-shadow: 1px 1px 7px grey;
 }
 h1 {
   text-align: center;
