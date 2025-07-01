@@ -1,17 +1,22 @@
+html {
+  background-color: #808080;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 50px;
   margin: 0 auto;
   width: 80vw;
   min-height: calc(100vh - 100px);
+  background-color: #fff;
 }
 hr {
-  width: 80em;
+  width: 80%;
+  border: 2px solid #000;
 }
 section {
-  width: 20em;
+  width: 30%;
   display: inline-block;
-  margin-left: 5rem;
+  padding: 1rem;
 }
 header {
   width: 20rem;
@@ -22,4 +27,17 @@ footer {
   width: 20rem;
   margin: auto;
   text-align: center;
+}
+header,
+main {
+  padding: 3rem 0;
+}
+footer {
+  padding: 5px;
+}
+main {
+  padding-left: 50px;
+}
+.guests h2 {
+  margin-bottom: 40px;
 }
