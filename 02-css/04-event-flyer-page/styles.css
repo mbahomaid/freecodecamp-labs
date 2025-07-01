@@ -12,3 +12,8 @@ section {
   display: inline-block;
   margin-left: 5rem;
 }
+header {
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+}
