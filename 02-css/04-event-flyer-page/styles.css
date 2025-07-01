@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  margin: 0 auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+}
+hr {
+  width: 80em;
+}
+section {
+  width: 20em;
+  display: inline-block;
+  margin-left: 5rem;
+}
