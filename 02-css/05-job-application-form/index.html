@@ -6,5 +6,49 @@
     <title>Job Application Form</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Job Application Form</h1>
+      <form>
+        <label for="name" class="name-label">Full Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+        <label for="email" class="email-label">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <label for="position" class="position-label">Position:</label>
+        <select name="position" id="position">
+          <option value="">Select a position</option>
+          <option value="developer">Developer</option>
+          <option value="designer">Designer</option>
+          <option value="manager">Manager</option>
+        </select>
+        <fieldset class="radio-group">
+          <legend>Availability:</legend>
+          <input type="radio" name="availability" id="full-time" />
+          <label for="full-time">Full-Time</label>
+          <input type="radio" name="availability" id="part-time" />
+          <label for="part-time">Part-Time</label>
+        </fieldset>
+
+        <label for="message" class="message-label"
+          >Why do you want this job?</label
+        >
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Write your motivation"
+        ></textarea>
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+  </body>
 </html>
