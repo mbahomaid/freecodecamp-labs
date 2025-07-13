@@ -1,0 +1,114 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+  margin: 80px auto 0;
+  max-width: 75vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+}
+input[type='text'],
+input[type='email'],
+select,
+textarea {
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+input,
+textarea,
+select {
+  font-size: 18px;
+}
+.message-label {
+  margin-top: 10px;
+  display: block;
+}
+.radio-group label {
+  font-weight: normal;
+  display: inline;
+}
+input[type='text'],
+input[type='email'],
+textarea,
+select {
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+select {
+  width: 99.7%;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 97.7%;
+}
+h1 {
+  text-align: center;
+  font-size: 34px;
+}
+button {
+  display: block;
+  background-color: green;
+  color: #fff;
+  width: 99.7%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 22px;
+  border: none;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 1px solid red;
+}
+input:valid,
+select:valid,
+textarea:valid {
+  border: 1px solid green;
+}
+button:hover {
+  background-color: #000;
+}
+input:first-of-type {
+  color: #333;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid lightskyblue;
+}
+.radio-group input:checked + label {
+  color: green;
+}
+.radio-group input[type='radio'] {
+  display: none;
+}
+.radio-group label::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.radio-group input[type='radio']:checked {
+  border-color: green;
+  background: radial-gradient(circle, green 40%, transparent 41%);
+  color: green;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.radio-group input[type='radio']:checked + label::before {
+  border-color: green;
+  background: radial-gradient(circle, green 40%, transparent 41%);
+  color: green;
+}
