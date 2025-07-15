@@ -6,5 +6,26 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="form-container">
+      <form>
+        <h2>Contact Us</h2>
+        <label for="name"
+          >Name: <input type="text" name="name" id="name" required
+        /></label>
+        <label for="email"
+          >Email: <input type="email" name="email" id="email" required
+        /></label>
+        <label for="message">Message: </label>
+        <textarea
+          name="message"
+          id="message"
+          rows="3"
+          cols="30"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
