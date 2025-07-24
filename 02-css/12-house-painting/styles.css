@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  background-color: #b3e6ff;
+  margin: 0;
+}
+#house {
+  position: relative;
+  border: 5px solid #b35900;
+  background-color: #ff9980;
+  width: 500px;
+  height: 400px;
+  display: block;
+  margin: 140px auto;
+}
+#chimney {
+  position: absolute;
+  width: 90px;
+  height: 100px;
+  top: -100px;
+  left: 65%;
+  background: repeating-linear-gradient(
+    #e6e6e6,
+    #e6e6e6 10%,
+    black 10%,
+    black 12%
+  );
+  border: 2px solid black;
+  z-index: -1;
+}
+#roof {
+  border: 2px;
+  width: 100%;
+  height: 110px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  background: repeating-linear-gradient(
+      45deg,
+      #b35900,
+      #b35900 2%,
+      transparent 2%,
+      transparent 5%
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      #b35900,
+      #b35900 2%,
+      #ff9980 2%,
+      #ff9980 5%
+    );
+}
+#window-1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #b35900;
+  background: linear-gradient(
+    to right,
+    #ffffb3,
+    #ffffb3 48%,
+    #b35900 48%,
+    #b35900 52%,
+    #ffffb3 52%,
+    #ffffb3 100%
+  );
+  top: 150px;
+  left: 50px;
+}
+#window-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #b35900;
+  background: linear-gradient(
+    to right,
+    #ffffb3,
+    #ffffb3 48%,
+    #b35900 48%,
+    #b35900 52%,
+    #ffffb3 52%,
+    #ffffb3 100%
+  );
+  top: 150px;
+  left: 60%;
+}
+#door {
+  background-color: #e6e6e6;
+  border: 4px solid #b35900;
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 180px;
+}
+.lock {
+  width: 20px;
+  height: 20px;
+  background-color: #b35900;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+}
+#welcome {
+  background-color: #85e085;
+  color: #000;
+  border: 3px solid #000;
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: -12%;
+  left: 35%;
+  width: 100px;
+  text-align: center;
+  font-style: italic;
+  transform: skew(-15deg);
+  font-size: 18px;
+}
+.grass {
+  background-color: #008000;
+  width: 100%;
+  height: 199px;
+  position: absolute;
+  top: 350px;
+  z-index: -1;
+}
