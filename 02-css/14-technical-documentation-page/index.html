@@ -8,33 +8,32 @@
   </head>
   <body>
     <nav id="navbar">
-      <header>
-        <ul>
-          <li>
-            <a href="#Introduction" class="nav-link">Introduction</a>
-          </li>
-          <li>
-            <a href="#What_you_should_already_know" class="nav-link"
-              >What you should already know</a
-            >
-          </li>
-          <li>
-            <a href="#JavaScript_and_Java" class="nav-link"
-              >JavaScript and Java
-            </a>
-          </li>
-          <li><a href="#Hello_world" class="nav-link">Hello world</a></li>
-          <li><a href="#Variables" class="nav-link">Variables</a></li>
-          <li>
-            <a href="#Declaring_variables" class="nav-link"
-              >Declaring variables</a
-            >
-          </li>
-          <li>
-            <a href="#Variable_scope" class="nav-link">Variable scope</a>
-          </li>
-        </ul>
-      </header>
+      <header>JS Documentation</header>
+      <ul>
+        <li>
+          <a href="#Introduction" class="nav-link">Introduction</a>
+        </li>
+        <li>
+          <a href="#What_you_should_already_know" class="nav-link"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a href="#JavaScript_and_Java" class="nav-link"
+            >JavaScript and Java
+          </a>
+        </li>
+        <li><a href="#Hello_world" class="nav-link">Hello world</a></li>
+        <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li>
+          <a href="#Declaring_variables" class="nav-link"
+            >Declaring variables</a
+          >
+        </li>
+        <li>
+          <a href="#Variable_scope" class="nav-link">Variable scope</a>
+        </li>
+      </ul>
     </nav>
     <main id="main-doc">
       <section class="main-section" id="Introduction">
@@ -121,8 +120,12 @@
           your first "Hello world" JavaScript code:
         </p>
         <pre><code>
-function greetMe(yourName) { alert("Hello " + yourName); }
+function greetMe(yourName) {
+  alert("Hello " + yourName);
+}
+
 greetMe("World");
+
 </code></pre>
 
         <p>
@@ -192,14 +195,24 @@ greetMe("World");
           global context) within which x is declared, not the block, which in
           this case is an if statement.
         </p>
-        <pre><code>if (true) { var x = 5; } console.log(x); // 5
+        <pre><code>if (true) {
+  var x = 5;
+}
+
+console.log(x); // 5
+
 </code></pre>
         <p>
           This behavior changes, when using the let declaration introduced in
           ECMAScript 2015.
         </p>
-        <pre><code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-not defined</code></pre>
+        <pre><code>if (true) {
+  let y = 5;
+}
+
+console.log(y);
+// ReferenceError: y is not defined
+</code></pre>
       </section>
     </main>
   </body>
