@@ -27,8 +27,6 @@ To run any of the solutions locally:
    ```
 2. Navigate to the specific lab directory:
 
-3. Follow the instructions in the respective README file of the lab.
-
 ## Contributions
 
 This repository serves as my personal learning log, but contributions, suggestions, or improvements are always welcome! Feel free to fork the repo and submit a pull request.
