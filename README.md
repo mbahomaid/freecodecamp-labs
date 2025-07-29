@@ -25,7 +25,7 @@ To run any of the solutions locally:
    ```bash
    git clone https://github.com/mbahomaid/freeCodeCamp-labs.git
    ```
-2. Navigate to the specific lab directory:
+2. Navigate to the specific lab directory
 
 ## Contributions
 
